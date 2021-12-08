@@ -30,6 +30,8 @@ public abstract class Player {
         this.legalMoves = Collections.unmodifiableCollection(playerLegals);
     }
 
+
+
     public boolean isInCheck() {
         return this.isInCheck;
     }
